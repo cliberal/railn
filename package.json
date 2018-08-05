@@ -1,0 +1,27 @@
+{
+  "name": "railn",
+  "version": "1.0.0",
+  "author": "biubiu",
+  "license": "ISC",
+  "keywords": [
+    "react-native",
+    "bundle",
+    "cli"
+  ],
+  "bin": {
+    "railn": "bin/index.js"
+  },
+  "main": "",
+  "scripts": {},
+  "dependencies": {
+    "metro": "https://github.com/cliberal/custom-metro.git",
+    "metro-babel-register": "0.43.4",
+    "metro-config": "https://github.com/cliberal/custom-metro-config.git",
+    "metro-core": "0.43.4",
+    "metro-memory-fs": "0.43.4"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "^0.55.4"
+  }
+}
