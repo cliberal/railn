@@ -15,15 +15,13 @@
   "scripts": {
     "release": "standard-version"
   },
-  "dependencies": {
-    "metro": "https://github.com/cliberal/custom-metro.git",
-    "metro-babel-register": "0.43.4",
-    "metro-config": "https://github.com/cliberal/custom-metro-config.git",
-    "metro-core": "0.43.4",
-    "metro-memory-fs": "0.43.4",
+  "devDependencies": {
     "standard-version": "^4.4.0"
   },
   "peerDependencies": {
+    "metro": "https://github.com/cliberal/custom-metro.git",
+    "metro-config": "https://github.com/cliberal/custom-metro-config.git",
+    "metro-memory-fs": "0.43.4",
     "react": "*",
     "react-native": "^0.55.4"
   }
