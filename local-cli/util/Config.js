@@ -72,7 +72,7 @@ const Config = {
     },
     serializer: {
       getModulesRunBeforeMainModule: () => [
-        // require.resolve('react-native/Libraries/Core/InitializeCore'),
+        require.resolve('react-native/Libraries/Core/InitializeCore'),
       ],
       getPolyfills,
     },
