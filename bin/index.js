@@ -2,5 +2,4 @@
 
 'use strict';
 
-const cli = require('../local-cli/cli.js');
-cli.run();
+require('../local-cli/wrong-react-native.js');
