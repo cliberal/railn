@@ -23,7 +23,7 @@ import type {ConfigT} from 'metro-config/src/configTypes.flow';
 
 function getProjectPath() {
   if (
-    __dirname.match(/node_modules[\/\\]react-native[\/\\]local-cli[\/\\]util$/)
+    __dirname.match(/node_modules[\/\\]rainl[\/\\]local-cli[\/\\]util$/)
   ) {
     // Packager is running from node_modules.
     // This is the default case for all projects created using 'react-native init'.
