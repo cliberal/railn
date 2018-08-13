@@ -16,12 +16,12 @@
     "release": "standard-version"
   },
   "devDependencies": {
+    "metro": "^0.43.5",
+    "metro-config": "^0.43.5",
+    "metro-memory-fs": "^0.43.5",
     "standard-version": "^4.4.0"
   },
   "peerDependencies": {
-    "metro": "https://github.com/cliberal/custom-metro.git",
-    "metro-config": "https://github.com/cliberal/custom-metro-config.git",
-    "metro-memory-fs": "0.43.4",
     "react": "*",
     "react-native": "^0.55.4"
   }
