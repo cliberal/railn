@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.1.1"></a>
+## [1.1.1](https://github.com/cliberal/railn/compare/v1.1.0...v1.1.1) (2018-08-13)
+
+
+### Bug Fixes
+
+* change dep ([a448b98](https://github.com/cliberal/railn/commit/a448b98))
+
+
+
 <a name="1.1.0"></a>
 # [1.1.0](https://github.com/cliberal/railn/compare/v1.0.7...v1.1.0) (2018-08-13)
 
