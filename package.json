@@ -15,10 +15,12 @@
   "scripts": {
     "release": "standard-version"
   },
-  "devDependencies": {
+  "dependencies": {
     "metro": "^0.43.5",
     "metro-config": "^0.43.5",
-    "metro-memory-fs": "^0.43.5",
+    "metro-memory-fs": "^0.43.5"
+  },
+  "devDependencies": {
     "standard-version": "^4.4.0"
   },
   "peerDependencies": {
