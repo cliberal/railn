@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.3.0"></a>
+# [1.3.0](https://github.com/cliberal/railn/compare/v1.2.0...v1.3.0) (2018-09-18)
+
+
+### Features
+
+* support projectRoot config ([45b307a](https://github.com/cliberal/railn/commit/45b307a))
+
+
+
 <a name="1.2.0"></a>
 # [1.2.0](https://github.com/cliberal/railn/compare/v1.1.1...v1.2.0) (2018-09-10)
 
