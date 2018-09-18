@@ -60,6 +60,9 @@ async function runServer(args: Args, config: ConfigT) {
   config.server.enhanceMiddleware = middleware =>
     middlewareManager.getConnectInstance().use(middleware);
 
+  // manual setting projectRoot, filename must be index.js
+  config.projectRoot = path.resolve(process.cwd(), args.projectRoot)
+
   const serverInstance = await Metro.runServer(config, {
     host: args.host,
     secure: args.https,
