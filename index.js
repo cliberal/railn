@@ -1,3 +1,5 @@
+require('./setupBabel')();
+
 const bundle = require('./lib/bundle')
 const server = require('./lib/server')
 

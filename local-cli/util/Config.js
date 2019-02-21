@@ -14,7 +14,7 @@ const getPolyfills = require('../../rn-get-polyfills');
 const path = require('path');
 
 const {createBlacklist} = require('metro');
-const {loadConfig, mergeConfig} = require('metro-config');
+const {loadConfig, mergeConfig, getDefaultConfig} = require('metro-config');
 
 /**
  * Configuration file of the CLI.
@@ -77,7 +77,8 @@ const Config = {
       getPolyfills,
     },
 
-    watchFolders: [getProjectPath(), ...getProjectRoots()],
+    // watchFolders: [getProjectPath(), ...getProjectRoots()],
+    watchFolders: [getProjectPath()],
     transformModulePath: require.resolve('metro/src/reactNativeTransformer'),
   },
 
@@ -91,8 +92,9 @@ const Config = {
     );
   },
 
-  merge(config) {
-    return mergeConfig(this.DEFAULT, config)
+  async merge(config) {
+    const defaultConfig = await getDefaultConfig()
+    return mergeConfig(defaultConfig, this.DEFAULT, config)
   }
 };
 
