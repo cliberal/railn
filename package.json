@@ -11,7 +11,7 @@
   "bin": {
     "railn": "bin/index.js"
   },
-  "main": "",
+  "main": "index.js",
   "scripts": {
     "release": "standard-version"
   },

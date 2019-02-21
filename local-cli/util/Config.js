@@ -14,7 +14,7 @@ const getPolyfills = require('../../rn-get-polyfills');
 const path = require('path');
 
 const {createBlacklist} = require('metro');
-const {loadConfig} = require('metro-config');
+const {loadConfig, mergeConfig} = require('metro-config');
 
 /**
  * Configuration file of the CLI.
@@ -90,6 +90,10 @@ const Config = {
       this.DEFAULT,
     );
   },
+
+  merge(config) {
+    return mergeConfig(this.DEFAULT, config)
+  }
 };
 
 module.exports = Config;
