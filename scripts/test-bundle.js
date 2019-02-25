@@ -3,13 +3,18 @@ const railn = require('../index')
 
 railn.bundle(
   {
-    entryFile: path.resolve(__dirname, '../test/index.js'),
+    projectRoot: '/Users/juchangrong/Workspace/douyin_rn/fe_app_rn',
+    entryFile: '/Users/juchangrong/Workspace/douyin_rn/fe_app_rn/config/metro/index.js',
     dev: true,
     minify: false,
     platform: 'ios',
-    bundleOutput: path.resolve(__dirname, '../test/index.jsbundle')
+    bundleOutput: path.resolve(__dirname, '../test/index.jsbundle'),
+    watchFolders: [
+      '/Users/juchangrong/Workspace/douyin_rn/fe_app_rn',
+      '/Users/juchangrong/Workspace/wheels/railn',
+    ],
   },
   {
-    projectRoot: path.resolve(__dirname, '../test'),
+    projectRoot: '/Users/juchangrong/Workspace/douyin_rn/fe_app_rn',
   }
 )
