@@ -101,13 +101,14 @@ const getBabelRC = (function() {
     babelRC = {
       presets: [ require('metro-react-native-babel-preset') ],
       plugins: [
+        ['@babel/plugin-syntax-dynamic-import'],
         [
           require('babel-plugin-module-resolver'),
           {
             alias: {
-              // '^@src/(.+)': './src/\\1',
-              '@src': './src',
+              '^@src/(.+)': './src/\\1',
             },
+            cwd: '/Users/juchangrong/Workspace/douyin_rn/fe_app_rn',
             extensions: ['.jsx', '.js', '.ios.jsx', '.ios.js', '.android.jsx', '.android.js'],
           },
         ],

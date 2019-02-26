@@ -53,8 +53,8 @@ const getProjectRoots = () => {
 };
 
 const getBlacklistRE = () => {
-return createBlacklist([/.*\/__fixtures__\/.*/]);
-// return createBlacklist([/.*\/__fixtures__\/.*/, /.*\/railn\/node_modules\/react-native.*/]);
+// return createBlacklist([/.*\/__fixtures__\/.*/]);
+return createBlacklist([/.*\/__fixtures__\/.*/, /.*\/railn\/node_modules\/react-native.*/]);
 };
 
 /**
