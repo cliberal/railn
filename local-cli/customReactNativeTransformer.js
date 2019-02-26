@@ -98,22 +98,7 @@ const getBabelRC = (function() {
     //   babelRC.extends = projectBabelRCPath;
     // }
 
-    babelRC = {
-      presets: [ require('metro-react-native-babel-preset') ],
-      plugins: [
-        ['@babel/plugin-syntax-dynamic-import'],
-        [
-          require('babel-plugin-module-resolver'),
-          {
-            alias: {
-              '^@src/(.+)': './src/\\1',
-            },
-            cwd: '/Users/juchangrong/Workspace/douyin_rn/fe_app_rn',
-            extensions: ['.jsx', '.js', '.ios.jsx', '.ios.js', '.android.jsx', '.android.js'],
-          },
-        ],
-      ],
-    }
+    babelRC = global.__eden__.metroBabelConfig
 
     return babelRC;
   };
@@ -149,7 +134,7 @@ function buildBabelConfig(filename, options, plugins) {
    * and run Flow. */
   if (options.dev && options.hot) {
     const hmrConfig = makeHMRConfig(options, filename);
-    config = Object.assign({}, config, hmrConfig);
+    config.plugins.concat(hmrConfig.plugins)
   }
 
   return Object.assign({}, babelRC, config);
