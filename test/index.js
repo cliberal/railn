@@ -1,1 +1,1 @@
-import 'react'
+import { Text } from 'react-native'
