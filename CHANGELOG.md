@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="2.0.3"></a>
+## [2.0.3](https://github.com/cliberal/railn/compare/v2.0.2...v2.0.3) (2019-02-26)
+
+
+### Bug Fixes
+
+* babel config ([837f15f](https://github.com/cliberal/railn/commit/837f15f))
+
+
+
 <a name="2.0.2"></a>
 ## [2.0.2](https://github.com/cliberal/railn/compare/v2.0.1...v2.0.2) (2019-02-21)
 
