@@ -1,8 +1,7 @@
 const path = require('path')
 const railn = require('../index')
 
-global.__eden__ = {}
-global.__eden__.metroBabelConfig = {
+process.env.__metro_babel_config = JSON.stringify({
   presets: [ 'module:metro-react-native-babel-preset' ],
   plugins: [
     ['@babel/plugin-syntax-dynamic-import'],
@@ -17,7 +16,7 @@ global.__eden__.metroBabelConfig = {
       },
     ],
   ],
-}
+})
 
 railn.bundle(
   {

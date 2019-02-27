@@ -98,7 +98,7 @@ const getBabelRC = (function() {
     //   babelRC.extends = projectBabelRCPath;
     // }
 
-    babelRC = global.__eden__.metroBabelConfig
+    babelRC = JSON.parse(process.env.__metro_babel_config)
 
     return babelRC;
   };
