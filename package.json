@@ -18,13 +18,11 @@
     "test-server": "node ./scripts/test-server.js"
   },
   "dependencies": {
-    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
-    "@babel/preset-env": "^7.3.1",
-    "@babel/preset-react": "^7.0.0",
-    "babel-plugin-module-resolver": "3.1.1",
+    "@babel/core": "^7.3.4",
     "metro": "^0.43.5",
     "metro-config": "^0.43.5",
     "metro-memory-fs": "^0.43.5",
+    "opn": "^5.4.0",
     "react": "^16.8.3",
     "react-native": "0.55.4"
   },
