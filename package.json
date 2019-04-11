@@ -1,6 +1,6 @@
 {
   "name": "railn",
-  "version": "2.0.6",
+  "version": "2.1.0",
   "author": "biubiu",
   "license": "ISC",
   "keywords": [
@@ -18,9 +18,9 @@
     "test-server": "node ./scripts/test-server.js"
   },
   "dependencies": {
-    "metro": "^0.43.5",
-    "metro-config": "^0.43.5",
-    "metro-memory-fs": "^0.43.5",
+    "metro": "^0.45.6",
+    "metro-config": "^0.45.6",
+    "metro-memory-fs": "^0.45.6",
     "opn": "^5.4.0"
   },
   "devDependencies": {
@@ -28,6 +28,6 @@
   },
   "peerDependencies": {
     "react": "*",
-    "react-native": "^0.55.4"
+    "react-native": "0.55.4"
   }
 }
