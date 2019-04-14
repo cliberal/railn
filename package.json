@@ -21,6 +21,7 @@
     "metro": "^0.45.6",
     "metro-config": "^0.45.6",
     "metro-memory-fs": "^0.45.6",
+    "metro-babel-register": "^0.45.6",
     "opn": "^5.4.0"
   },
   "devDependencies": {
