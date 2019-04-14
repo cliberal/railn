@@ -2,5 +2,5 @@
 
 'use strict';
 
-const cli = require('../src/cli.js');
+const cli = require('../local-cli/cli.js');
 cli.run();
