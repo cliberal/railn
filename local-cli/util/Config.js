@@ -78,7 +78,7 @@ const Config = {
     },
     transformer: {
       babelTransformerPath: require.resolve('metro/src/reactNativeTransformer'),
-    }
+    },
     // watchFolders: [getProjectPath(), ...getProjectRoots()],
     watchFolders: [getProjectPath()],
   },
