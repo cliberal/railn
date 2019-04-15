@@ -76,10 +76,11 @@ const Config = {
       ],
       getPolyfills,
     },
-
+    transformer: {
+      babelTransformerPath: require.resolve('metro/src/reactNativeTransformer'),
+    }
     // watchFolders: [getProjectPath(), ...getProjectRoots()],
     watchFolders: [getProjectPath()],
-    transformModulePath: require.resolve('metro/src/reactNativeTransformer'),
   },
 
   getProjectPath,
