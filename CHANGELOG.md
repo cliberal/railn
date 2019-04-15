@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="2.1.4"></a>
+## [2.1.4](https://github.com/cliberal/railn/compare/v2.1.3...v2.1.4) (2019-04-15)
+
+
+### Bug Fixes
+
+* typo ([c0ed2ed](https://github.com/cliberal/railn/commit/c0ed2ed))
+
+
+
 <a name="2.1.3"></a>
 ## [2.1.3](https://github.com/cliberal/railn/compare/v2.1.2...v2.1.3) (2019-04-15)
 
