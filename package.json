@@ -18,10 +18,10 @@
     "test-server": "node ./scripts/test-server.js"
   },
   "dependencies": {
-    "metro": "^0.45.6",
-    "metro-config": "^0.45.6",
-    "metro-memory-fs": "^0.45.6",
-    "metro-babel-register": "^0.45.6",
+    "metro": "0.45.0",
+    "metro-config": "0.45.0",
+    "metro-memory-fs": "0.45.0",
+    "metro-babel-register": "0.45.0",
     "opn": "^5.4.0"
   },
   "devDependencies": {
